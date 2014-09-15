@@ -9,5 +9,9 @@ class IndexController extends Controller {
 	public function add(){
 		 $this->show('添加产品页');
 	}
+
+	public function edit(){
+		 $this->show('修改产品页');
+	}
 }
 ?>
